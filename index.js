@@ -10,7 +10,7 @@ function mul(...args) {
   }, 1);
 }
 
-function div(a, b) {
+function division(a, b) {
   return a / b;
 }
 
