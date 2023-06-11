@@ -18,6 +18,14 @@ function subraction(a, b) {
   return a - b;
 }
 
+function pow(a, b) {
+  val = 1;
+  for (let i = 0; i < b; i++) {
+    val = val * b;
+  }
+  return val;
+}
+
 module.exports = {
   add,
   mul,
