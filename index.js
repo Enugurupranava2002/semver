@@ -14,7 +14,7 @@ function division(a, b) {
   return a / b;
 }
 
-function sub(a, b) {
+function subraction(a, b) {
   return a - b;
 }
 
