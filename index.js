@@ -21,7 +21,7 @@ function subraction(a, b) {
 function pow(a, b) {
   val = 1;
   for (let i = 0; i < b; i++) {
-    val = val * b;
+    val = val * a;
   }
   return val;
 }
