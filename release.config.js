@@ -6,6 +6,7 @@ export const config = {
     [
       "@semantic-release/git",
       {
+        assets: ["lib/*.js"],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
